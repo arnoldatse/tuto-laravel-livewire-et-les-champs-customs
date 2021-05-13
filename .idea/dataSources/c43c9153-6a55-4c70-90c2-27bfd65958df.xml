@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="tuto_livewire_form@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.1">
+    <root id="1"/>
+    <schema id="2" parent="1" name="tuto_livewire_form">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="abilis"/>
+    <schema id="4" parent="1" name="abilisbouqtique"/>
+    <schema id="5" parent="1" name="cloud_sms"/>
+    <schema id="6" parent="1" name="coronacasci"/>
+    <schema id="7" parent="1" name="firca0.2"/>
+    <schema id="8" parent="1" name="firca_test_permission"/>
+    <schema id="9" parent="1" name="information_schema"/>
+    <schema id="10" parent="1" name="ivoirestyle-laravel"/>
+    <schema id="11" parent="1" name="mysql"/>
+    <schema id="12" parent="1" name="online-school-manager"/>
+    <schema id="13" parent="1" name="performance_schema"/>
+    <schema id="14" parent="1" name="projectmanager"/>
+    <schema id="15" parent="1" name="pslmanager"/>
+    <schema id="16" parent="1" name="school-manager"/>
+    <schema id="17" parent="1" name="soc-manager-integral"/>
+    <schema id="18" parent="1" name="soc-manager1-3"/>
+    <schema id="19" parent="1" name="soc_manager_naked"/>
+    <schema id="20" parent="1" name="test"/>
+    <schema id="21" parent="1" name="testsocket"/>
+    <schema id="22" parent="1" name="universalshop"/>
+    <table id="23" parent="2" name="migrations"/>
+    <table id="24" parent="2" name="services"/>
+    <table id="25" parent="2" name="users"/>
+    <column id="26" parent="23" name="id">
+      <Position>1</Position>
+      <DataType>int(10) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="27" parent="23" name="migration">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="28" parent="23" name="batch">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="29" parent="23" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="30" parent="24" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="31" parent="24" name="name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="32" parent="24" name="user_id">
+      <Position>3</Position>
+      <DataType>bigint(20)|0</DataType>
+      <DefaultExpression>&apos;NULL&apos;</DefaultExpression>
+    </column>
+    <column id="33" parent="24" name="created_at">
+      <Position>4</Position>
+      <DataType>timestamp|0</DataType>
+      <DefaultExpression>&apos;NULL&apos;</DefaultExpression>
+    </column>
+    <column id="34" parent="24" name="updated_at">
+      <Position>5</Position>
+      <DataType>timestamp|0</DataType>
+      <DefaultExpression>&apos;NULL&apos;</DefaultExpression>
+    </column>
+    <key id="35" parent="24" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="36" parent="25" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="37" parent="25" name="name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="38" parent="25" name="birthDate">
+      <Position>3</Position>
+      <DataType>datetime|0</DataType>
+      <DefaultExpression>&apos;NULL&apos;</DefaultExpression>
+    </column>
+    <column id="39" parent="25" name="created_at">
+      <Position>4</Position>
+      <DataType>timestamp|0</DataType>
+      <DefaultExpression>&apos;NULL&apos;</DefaultExpression>
+    </column>
+    <column id="40" parent="25" name="updated_at">
+      <Position>5</Position>
+      <DataType>timestamp|0</DataType>
+      <DefaultExpression>&apos;NULL&apos;</DefaultExpression>
+    </column>
+    <key id="41" parent="25" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

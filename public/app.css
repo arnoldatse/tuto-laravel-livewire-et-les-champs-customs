@@ -1,0 +1,118 @@
+body{
+    font-family: "Noto Sans", "Montserrat", "Roboto";
+    color: #5b5b5b
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.form-group label{
+    margin: 0 5px;
+}
+
+.form-input{
+    border: 2px solid #828282;
+    height: 30px;
+    border-radius: 5px;
+    margin:5px;
+    padding: 0 10px;
+    outline: none;
+}
+
+.form-input:hover{
+    border-color: #a1b4e9;
+}
+
+.form-input:focus{
+    border-color: #3c4fae;
+}
+
+.form-control{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.form-submit{
+    min-width: 100px;
+    border-radius: 20px;
+    margin:5px;
+    height: 30px;
+    border: 2px solid #828282;
+    background-color: rgba(255, 255, 255, 0);
+    color:#828282;
+    cursor:pointer;
+}
+
+.form-submit:hover{
+    background-color: rgb(73, 100, 233);
+    border: 2px solid rgb(255, 255, 255);
+    color: #ffffff;
+}
+
+.form-submit:focus{
+    background-color: rgb(53, 74, 148);
+    border: 2px solid rgb(255, 255, 255);
+    color: #ffffff;
+}
+
+.tableContainer{
+    margin-top: 50px;
+}
+
+.table{
+    border-collapse: collapse;
+}
+
+.table th, .table td{
+    border: 1px solid #a4a4a4;
+    padding: 10px;
+}
+
+.autocomplate{
+    position: relative;
+}
+
+.autocomplate-list{
+    position: absolute;
+    list-style: none;
+    padding:0;
+    margin:0 5px;
+    border:1px solid #6c706d;
+    border-top:none;
+    background-color: #ffffff;
+    border-radius:5px;
+    top: 90%;
+    right: 0;
+    left: 0;
+}
+
+.autocomplate-list li{
+    padding:10px;
+}
+
+.autocomplate-list li:hover{
+    background-color: #e6e6e6;
+    cursor: pointer;
+}
+
+.autocomplate-list li.no-result{
+    text-align: center;
+}
+.autocomplate-list li.no-result:hover{
+    cursor: pointer;
+}
