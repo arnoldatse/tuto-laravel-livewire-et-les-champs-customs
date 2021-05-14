@@ -1,6 +1,6 @@
 Ce dépot à été créé dans le cadre d'un tutoriel qui explique comment utiliser **[Laravel Livewire](https://laravel-livewire.com/)** pour gérer les champs customisés, par exemple les champs de type <b>datetime picker <b/>.
 
-<b>Tutoriel vidéo :  </b> 
+<b>Tutoriel vidéo : https://youtu.be/jgTMEBykqx8 </b> 
 
 ## INSTALLATION
 
